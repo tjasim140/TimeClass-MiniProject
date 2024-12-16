@@ -24,12 +24,13 @@ public class Time {
             minutes = 0;
             hours = 0;
         }
+        //create strings for each to pad value if <10 then use that for toString
     }
 
     @Override
     public String toString() {
         if (hours<10){
-            hours = 
+            hours =
         }
         if (hours<10||minutes<10||seconds<10) {
             return "0" + hours + ":0" + minutes + ":0" + seconds;
